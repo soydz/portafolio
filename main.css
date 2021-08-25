@@ -263,6 +263,9 @@
 }
 
 @media(max-width: 670px){
+	.navbar__item {
+		margin: 0 0.5rem;
+	}
 	.welcome__right {
 		font-size: 4.9rem;
 	}
@@ -289,6 +292,9 @@
 }
 
 @media(max-width: 410px){
+	.navbar__item {
+		margin: 0 0;
+	}
 	.welcome__right {
 		text-align: center;
 		font-size: 4rem;
