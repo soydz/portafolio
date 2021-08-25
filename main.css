@@ -55,7 +55,7 @@
 }
 
 .welcome {
-	height: 100vh;
+	min-height: 100vh;
 	background: #0e0b16;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -293,7 +293,7 @@
 
 @media(max-width: 410px){
 	.navbar__item {
-		margin: 0 0;
+		margin: 0;
 	}
 	.welcome__right {
 		text-align: center;
